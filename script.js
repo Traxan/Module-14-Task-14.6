@@ -8,7 +8,7 @@ var Counter = React.createClass({
     
     getInitialState: function() {
         return {
-            counter: this.props.default,
+            counter: 0,
         };
     },
     
